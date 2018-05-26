@@ -1,0 +1,146 @@
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: whitesmoke;
+}
+.info {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    display: grid;
+    grid-gap: 3px;
+    background-color:white;
+    padding: 6px;
+    height: auto;
+  }
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    height: auto;
+  }
+
+.info1{
+    grid-row: 1/4;
+    grid-column: 1/2;
+    background-color: #003D74;
+    color: white;
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+}
+.info2{
+    grid-row: 1/4;
+    grid-column: 2/4;
+    padding-left: 2%;
+    font-size: 85%;
+    font-family:  sans-serif;
+}
+.name{
+    font-size:150%;
+    padding: 2%;
+    background-color: inherit;
+    margin-left: 8%;
+}
+.desig{
+    font-size:100%;
+    padding: 2%;
+    background-color: inherit;
+    margin-left: 8%;
+}
+.head{
+    height: auto;
+    background-color: #012E58;
+    padding: 1%;
+    padding-left: 4%;
+    font-size: 120%;
+    font-family: 'Cabin', sans-serif;
+}
+.content{
+    background-color: inherit;
+    padding: 4%;
+    font-size: 85%;
+    line-height: 1.9;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.skillbars{
+    padding: 4%;
+    background-color: inherit;
+}
+.skillhead{
+    background-color: inherit;
+    font-size: 85%;
+    padding: 0%;
+}
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #012E58; /* Grey background */
+}
+
+.skillinfo {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    padding-top: 4px;
+    color:white; /* White text color */
+    background-color: inherit;
+    font-size: 75%;
+}
+.mp {width: 100%; background-color: white; height: 15px;} /* Green */
+.ws {width: 80%; background-color: white;height: 15px;} /* Blue */
+.lu {width: 85%; background-color: white;height: 15px;} /* Red */
+.xl {width: 60%; background-color: white;height: 15px;} /* Dark Grey */
+.french {width: 70%; background-color: white;height: 15px;} /* Dark Grey */
+.german {width: 30%; background-color: white;height: 15px;} /* Dark Grey */
+
+
+
+.career{
+    background-color: white;
+    border-top-color: lightgray;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    padding: 0.5%;
+    font-size: 140%;
+    font-family: 'Cabin', sans-serif;
+    color:#012E58;
+}
+
+table {
+    margin-top: 2%;
+    padding: 1%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 85%;
+    font-family:  sans-serif;
+    width: 100%;
+}
+
+td{ 
+  padding: 1%;
+}
+.timeline{
+    width: 20%;
+    vertical-align: text-top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.work{
+    width: 80%;
+    font-size: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brief{
+    padding: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    line-height: 1.8;
+}
+
+
+
+
